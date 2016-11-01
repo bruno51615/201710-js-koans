@@ -7,7 +7,7 @@ test("defining functions directly", function() {
         result = "b";
     };
     changeResult();
-    equal(__, result, 'what is the value of result?');
+    equal(b, result, 'what is the value of result?');
 });
 
 test("assigning functions to variables", function() {
