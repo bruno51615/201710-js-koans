@@ -37,8 +37,10 @@ test("arguments array", function() {
         var total = 0;
         for(var i = 0; i < arguments.length; i++) {
             // complete the implementation of this method so that it returns the sum of its arguments
-            total+=arguments[i]:
+            //__
+            total += arguments[i];
         }
+        //__
         return total;
     };
 
