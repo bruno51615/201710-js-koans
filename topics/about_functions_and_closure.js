@@ -37,9 +37,9 @@ test("arguments array", function() {
         var total = 0;
         for(var i = 0; i < arguments.length; i++) {
             // complete the implementation of this method so that it returns the sum of its arguments
-            // __
+            total+=arguments[i]:
         }
-        // __
+        return total;
     };
 
     equal(15, add(1,2,3,4,5), "add 1,2,3,4,5");
